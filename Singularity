@@ -5,7 +5,7 @@ From:ubuntu:16.04
     # Installing ubuntu dependencies
     apt-get update
     apt-get install -y libcurl4-gnutls-dev libxml2-dev libssl-dev libmariadb-client-lgpl-dev ibglib2.0-dev libcairo2-dev \
-    ghostscript libxt-dev r-base
+    ghostscript libxt-dev r-base=3.6.1
     apt-get clean
     rm -rf /var/lib/apt/lists/*
     # Installing R packages
