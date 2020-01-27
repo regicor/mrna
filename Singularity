@@ -13,5 +13,5 @@ From:ubuntu:16.04
     Rscript -e 'library(devtools); install_github("brentp/celltypes450")'  
     Rscriot -e 'install.packages("BiocManager")'
     Rscriot -e 'BiocManager::install()'
-    Rscript -e BiocManager::install(c("sva","edgeR","limma","oligo","oligoClasses","BiocGenerics","ggplot2","parallel","Biobase","Biostrings","S4Vectors","stats4","IRanges","XVector")'
+    Rscript -e 'BiocManager::install(c("sva","edgeR","limma","oligo","oligoClasses","BiocGenerics","ggplot2","parallel","Biobase","Biostrings","S4Vectors","stats4","IRanges","XVector")'
     
